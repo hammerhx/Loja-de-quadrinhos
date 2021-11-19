@@ -5,3 +5,37 @@ body {
 header {
 	background-image: url(brown.jpg);
 }
+
+.topo {
+	position: absolute;
+}
+
+.caixa {
+	background-color: brown;
+	padding: 20px;
+	box-sizing: border-box;
+	border: 3px solid black;
+	border-radius: 15px;
+}
+
+h1 {
+	text-align: justify;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+h2 {
+	padding-left: 15%;
+}
+
+footer {
+	text-align: center;
+	background: url(foot.jpg);
+	padding: 40px 0;
+}
+
+.copyright {
+	color: black;
+	font-size: 17px;
+	margin: 20px 0 0;
+}
