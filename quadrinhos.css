@@ -1,5 +1,5 @@
 body {
-	background-color: green;
+	background-color: lightgray;
 }
 
 header {
@@ -14,19 +14,17 @@ h2 {
 	text-align: center;
 	font-size: 22px;
 	font-weight: bold;
-	color: yellow;
+	color: black;
 	padding-bottom: 15px;
-	text-shadow: 3px 3px black;
 }
 
 h3 {
 	text-align: center;
 	font-size: 20px;
 	font-weight: bold;
-	color: yellow;
+	color: black;
 	padding-top: 15px;
 	padding-bottom: 15px;
-	text-shadow: 3px 3px black;
 }
 
 .links {
@@ -49,7 +47,7 @@ h3 {
 	margin: 2% 2% 2% 2%;
 	padding: 30px 20px;
 	box-sizing: content-box;
-	border: 6px solid white;
+	border: 6px solid black;
 	border-radius: 15px;
 }
 
@@ -62,7 +60,6 @@ h3 {
 	font-size: 18px;
 	border: none;
 	border-radius: 5px;
-	transition: 1s all;
 	cursor: pointer;
 }
 
