@@ -1,9 +1,39 @@
 body {
 	background-color: lightgray;
+	font-family: oxygen;
 }
 
 header {
 	background-image: url(brown.jpg);
+}
+
+.menu {
+   padding-left: 27%;
+   margin:0;
+   width:1200px;
+   float:left;
+ }
+
+.menu ul {
+  padding:0;
+  margin:0;
+  list-style:none;
+  border:0;
+  float:left;
+}
+
+.menu ul li {
+  float:left;
+  margin:0;
+  padding:0;
+  border:0;
+}
+
+.menu ul li a {
+  float:left;
+  margin:0;
+  padding:13px 10px;
+  text-decoration:none;
 }
 
 h1 {
@@ -25,6 +55,14 @@ h3 {
 	color: black;
 	padding-top: 15px;
 	padding-bottom: 15px;
+}
+
+h4 {
+	text-align: center;
+	font-size: 40px;
+	font-weight: bold;
+	color: black;
+	padding-top: 15px;
 }
 
 .links {
@@ -69,12 +107,12 @@ h3 {
 
 footer {
 	text-align: center;
-	background: url(foot.jpg);
+	background: url(black.jpg);
 	padding: 40px 0;
 }
 
 .copyright {
-	color: black;
+	color: white;
 	font-weight: bold;
 	font-size: 17px;
 	margin: 20px 0 0;
