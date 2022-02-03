@@ -7,33 +7,34 @@ header {
 	background-image: url(brown.jpg);
 }
 
-.menu {
-   padding-left: 27%;
-   margin:0;
-   width:1200px;
-   float:left;
- }
-
-.menu ul {
-  padding:0;
-  margin:0;
-  list-style:none;
-  border:0;
-  float:left;
+nav {
+	position: relative;
+	float: left;
+	padding-left: 50px;
 }
 
-.menu ul li {
-  float:left;
-  margin:0;
-  padding:0;
-  border:0;
+nav a {
+	text-decoration: none;
 }
 
-.menu ul li a {
-  float:left;
-  margin:0;
-  padding:13px 10px;
-  text-decoration:none;
+nav a:hover {
+	color:  orange;
+	text-decoration: underline;
+	}
+
+.links {
+	text-align: center;
+	width: 1300px;
+	padding-top: 15px;
+}
+
+.links li {
+	display: inline-block;
+	margin: 0 2%;
+}
+
+.links li:active {
+	color: purple;
 }
 
 h1 {
@@ -58,17 +59,8 @@ h3 {
 }
 
 h4 {
-	text-align: center;
 	font-size: 40px;
 	font-weight: bold;
-	color: black;
-	padding-top: 15px;
-}
-
-.links {
-	float: left;
-	position: relative;
-	width: 1300px;
 	padding-top: 15px;
 }
 
