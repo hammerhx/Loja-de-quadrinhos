@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ENCOMENDAS</title>
+	<link rel="stylesheet" href="reset.css">
+	<link rel="stylesheet" href="quadrinhos.css">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen&display=swap" rel="stylesheet">
+</head>
+	<body>
+			<main>
+				<center>
+					<h6><img src="flanders.png"></h6>
+					<p><h5>Quer encomendar algo específico? Basta preencher o formulário!</h5></p>
+					<br>
+					<form>
+			<div>
+			<label for="nomesobrenome">Nome e sobrenome</label>
+			<input type="text" id="nomesobrenome" class="input-padrao" required>
+
+			<label for="email">E-Mail</label>
+			<input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com">
+
+			<label for="telefone">Telefone</label>
+			<input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) x xxxx xxxx">
+
+			<label for="mensagem">Deixe todas as informações sobre o produto que deseja (nome, marca, tipo, etc.)</label>
+			<textarea cols="70" rows="10" id="mensagem" class="input-padrao" required></textarea>
+
+			<fieldset>
+			<center>	
+			<legend>Como prefere que o contatemos?</legend></center>
+			<label for="radio-email"><input type="radio" name="contato" value="email" id="radio-email"> Email</label>
+
+			<label for="radio-telefone"><input type="radio" name="contato" value="telefone" id="radio-telefone"> Telefone</label>
+
+			<label for="radio-whatsapp"><input type="radio" name="contato" value="whatsapp" id="radio-whatsapp" checked=""> WhatsApp</label>
+
+			<input type="submit" value="Enviar Formulário" class="enviar">
+		</fieldset>
+		</div>
+	</form>
+					<br>
+					<a href="quadrinhos.html"><img src="nelson.png"></a>
+					<br>
+					<br>
+				</center>
+			</main>
+		<footer>
+		<img src="Logo.png" alt="Logo da Masmorra do Andróide">
+		<p class="copyright">&copy;Copyright Masmorra do Andróide 2021</p>
+	</footer>
+	</body>
+</html>
